@@ -3,15 +3,16 @@ import React, {Component} from 'react';
 
 function PizzaType (Image, Title, Description ) {
     return(
-        <div class="container">
-	<div class="row">
-		<h2 class="text-center">Pizza Types</h2>
+        <div 
+		className="container">
+	<div className="row">
+		<h2 className="text-center">Pizza Types</h2>
 	</div>
-	<div class="row">
-		<div class="col-md-3">
-			<div class="img-thumbnail">
+	<div className="row">
+		<div className="col-md-3">
+			<div className="img-thumbnail">
 				<img src="images/pizza1.jpg" alt="Pepperoni pizza"/>
-				<div class="caption">
+				<div className="caption">
 					<h2>Pepperoni Pizza</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -22,10 +23,10 @@ function PizzaType (Image, Title, Description ) {
 				</div>
 			</div>
 		</div>
-		<div class="col-md-3">
-			<div class="img-thumbnail">
+		<div className="col-md-3">
+			<div className="img-thumbnail">
 				<img src="images/pizza2.jpg" alt="Vegetable pizza" class="ip"/>
-				<div class="caption">
+				<div className="caption">
 					<h2>Vegetable Pizza</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -36,10 +37,10 @@ function PizzaType (Image, Title, Description ) {
 				</div>
 			</div>
 		</div>
-		<div class="col-md-3">
-			<div class="img-thumbnail">
+		<div className="col-md-3">
+			<div className="img-thumbnail">
 				<img src="images/pizza.31.jpg" alt="Chessy pizza" class="ip"/>
-				<div class="caption">
+				<div className="caption">
 					<h2>Chessy Pizza</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -51,9 +52,9 @@ function PizzaType (Image, Title, Description ) {
 			</div>
 		</div>
 		<div class="col-md-3">
-			<div class="img-responsive img-thumbnail">
+			<div className="img-responsive img-thumbnail">
 				<img src="images/pizza1.jpg" alt="Bossu pizza" class="ip"/>
-				<div class="caption">
+				<div className="caption">
 					<h2>Bossu Pizza</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
