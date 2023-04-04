@@ -1,0 +1,50 @@
+.bg-light {
+    background-color: #c12232!important;
+}
+
+.navbar-home .bg-light {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    color: white;
+}
+
+.span{
+	color: white;
+}
+
+.nav-home {
+color: white;  }
+
+.carouselpizza {
+    height: 35%;
+}
+
+
+.img-responsive {
+width: 100%;
+height: 90%;
+}
+
+.About-pizza{
+	margin-top: 3rem;
+	margin-bottom: 2rem;
+}
+
+header{
+	font-weight: bold;
+}
+
+
+.footer {
+	padding: 2rem 0rem;
+	background-color:  #c12232;
+	color: white;
+}
